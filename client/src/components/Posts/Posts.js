@@ -3,7 +3,11 @@ import Post from './Post/post'
 
 const Posts = () => {
     return (
-        <h1>Form</h1>
+        <div>
+            <h1>Posts</h1>
+                <Post />
+                <Post />
+        </div>
     )
 }
 
